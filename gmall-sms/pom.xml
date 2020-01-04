@@ -66,6 +66,10 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>gmall-sms-interface</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -77,7 +81,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <dependency>
+                <groupId>com.atguigu</groupId>
+                <artifactId>gmall-sms-interface</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
         </dependencies>
+
     </dependencyManagement>
 
     <build>
