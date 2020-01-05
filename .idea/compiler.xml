@@ -12,6 +12,7 @@
         <module name="gmall-generator" />
         <module name="gmall-oms" />
         <module name="gmall-pms" />
+        <module name="gmall-search" />
         <module name="gmall-sms" />
         <module name="gmall-sms-interface" />
         <module name="gmall-ums" />
