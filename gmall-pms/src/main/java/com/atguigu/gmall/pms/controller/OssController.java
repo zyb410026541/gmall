@@ -26,8 +26,7 @@ public class OssController {
 
         @GetMapping("policy")
         public Resp<Object> policy() throws UnsupportedEncodingException {
-            String accessId = "LTAI4FnaGoDS7vcesT9C3i7z"; // 请填写您的AccessKeyId。
-            String accessKey = "1TriwouDrQKgfPcoVT6f62lra8rRtt"; // 请填写您的AccessKeySecret。
+           
             String endpoint = "oss-cn-beijing.aliyuncs.com"; // 请填写您的 endpoint。
             String bucket = "udbplgmall"; // 请填写您的 bucketname 。
             String host = "https://" + bucket + "." + endpoint; // host的格式为 bucketname.endpoint
